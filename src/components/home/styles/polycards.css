@@ -1,0 +1,70 @@
+
+
+.polycards {
+  color: #fff;
+}
+
+
+.p_card {
+  grid-column-gap: 24px;
+  width: 100%;
+  height: 198px;
+  grid-row-gap: 20px;
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+  text-align: left;
+  cursor: pointer;
+  background-color: rgba(255,255,255,.08);
+  border: 1px solid rgba(255,255,255,.12);
+  border-radius: 12px;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr minmax(32px,32px);
+  grid-auto-columns: 1fr;
+  padding: 0 1rem;
+  transition: background-color .2s;
+  display: grid;
+  opacity: 0.65;
+}
+
+.p_card:hover {
+    opacity: 1;
+}
+
+.card-text {
+  color: #cccc;
+  
+}
+
+.pl_arr {
+  z-index: 1111 !important;
+  background-color: rgb(255, 255, 255, 0.098);
+  width: 1.65rem;
+  height: 1.65rem;
+  padding: 22px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.pl_arr:hover {
+  background-color: #fff;
+  color: #000;
+  
+}
+
+
+@media only screen and (max-width: 600px) {
+.p_card {
+  margin-bottom: 30px;
+}
+  
+}
+
+@media only screen and (max-width: 1200px) {
+.p_card {
+  margin-bottom: 30px;
+}
+  
+}

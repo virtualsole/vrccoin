@@ -1,0 +1,56 @@
+.eco_head {
+  color: #fff;
+}
+
+.crd {
+  width: 100%;
+}
+
+.eco_crd {
+  min-height: 20em;
+  position: relative;
+  background-image: linear-gradient(#141217, #0e0c12);
+  background-color: #0a090d;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border: none;
+  border-radius: 12px;
+  padding: 2.5rem;
+  color: #4f4e57;
+}
+
+.eco_crd:hover {
+  background-color: #2f1a52 !important;
+  background-image: none !important;
+  color: #fff !important;
+  cursor: pointer;
+  border: 1px solid #4f4e57;
+}
+
+.eco_crd_dv {
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  left: 10%;
+  right: 10%;
+}
+
+.eco_crd_dv h4 {
+  color: #fff;
+}
+
+.eco_crd_dv p {
+  font-size: 1.1em;
+  font-weight: 700;
+
+}
+
+@media screen and (max-width: 767px) {
+  .eco_head h1 {
+    font-size: 1.9rem !important;
+    text-align: center;
+  }
+
+  .eco_cards {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,149 @@
+
+@media only screen and (min-width: 1200px) {
+    
+
+
+.carousel {
+    border: 1px solid #ccc;
+    border-radius: 35px;
+    overflow: hidden;
+    border: none;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  
+    background-color: rgb(0 0 0);
+    width: 2.65rem;
+    height: 2.65rem;
+    padding: 5px;
+    border-radius: 50%;
+    transform: scale(0.9);
+    
+}
+.bg-clr{
+    background-color: black !important;
+}
+.carousel-caption {
+    position: absolute;
+    right: 2%;
+    bottom: 1.25rem;
+    left: 4%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    /* text-align: left; */
+    
+}
+
+.casmo {
+    background-color: #545354;
+    border-radius: 25px;
+    padding: 5px 10px;
+
+
+}
+
+.carsoul_head {
+    position: absolute;
+    left: 0;
+    color: #261d30;
+}
+
+.carsoual-btn-vrc{
+    color: #fff;
+    text-align: center;
+    text-transform: capitalize;
+    cursor: pointer;
+    /* background-image: linear-gradient(#8a46ff,#6e38cc); */
+    background-image: linear-gradient(to right,#680B51,#6e38cc);
+    border-radius: 3rem;
+    padding: 10px 14px;
+    font-size: .8rem;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all .2s;
+    position: absolute;
+    right: 0;
+    outline: none;
+    border: none;
+}
+
+
+.carsoual-btn-vrc:hover {
+    background-image: linear-gradient(#ffffff,#ffffff);
+    color: #000 !important;
+    text-decoration: none;
+}
+
+.carousel-indicators [data-bs-target] {
+    display: none !important;
+}
+
+}
+
+@media only screen and (max-width: 1200px) {
+    
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  
+    background-color: rgb(0 0 0);
+    width: 2.65rem;
+    height: 2.65rem;
+    padding: 5px;
+    border-radius: 50%;
+    transform: scale(0.9);
+    
+}
+.carousel-indicators [data-bs-target] {
+    display: none !important;
+}
+
+    .carousel {
+        border: 1px solid #ccc;
+        border-radius: 35px;
+        overflow: hidden;
+        border: none;
+    }
+    .carsoual-btn-vrc {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        align-items: center;
+        text-align: center;
+        color: #fff;
+        text-align: center;
+        text-transform: capitalize;
+        cursor: pointer;
+        background-image: linear-gradient(#8a46ff,#6e38cc);
+        border-radius: 3rem;
+        padding: 10px 14px;
+        font-size: .8rem;
+        font-weight: 500;
+        text-decoration: none;
+        transition: all .2s;
+     
+        outline: none;
+        border: none;
+    }
+    .carsoual-btn-vrc:hover {
+   background-image: linear-gradient(#ffffff,#ffffff);
+    color: #000 !important;
+    text-decoration: none;
+}
+    .carsoul_head {
+        
+        color: #261d30;
+    }
+    .casmo {
+      display: none;
+    
+    
+    }
+}
+
+
+

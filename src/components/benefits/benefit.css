@@ -1,0 +1,26 @@
+.text-title{
+    font-weight: 900;
+}
+.text-heading{
+    font-weight: 500;
+    font-size: 25px;
+}
+[data-aos].aos-animate {
+    pointer-events: auto;
+}
+
+.border-gradient {
+    background: rgba(35, 35, 35, 0.2)!important;
+    border: 1px solid rgba(105,67,255,.3)!important;
+    border-radius: 5px;
+    box-shadow: 0 4px 30px rgba(0,0,0,.4)!important;
+}
+@media(max-width:600px){
+    .mobile-responsive{
+        display: flex !important;
+        justify-content: center !important;
+    }
+    .card-responsive{
+        width: 90% !important;
+    }
+}

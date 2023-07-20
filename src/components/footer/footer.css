@@ -1,0 +1,49 @@
+.footer {
+    color: #fff;
+    font-family: "Agdasima",sans-serif;
+}
+
+.footer span {
+    color: #979696;
+}
+
+.ftr_icon {
+    font-size: 1.4em;
+}
+
+@media screen and (max-width: 990px) {
+    
+    .fst_line {
+        width: 50% !important;
+    }
+
+    .ftr_upr {
+        flex-wrap: wrap !important;
+        align-items: center;
+    }
+
+    .ftr_icons {
+        flex-wrap: wrap;
+    }
+    
+    .low_ftr {
+        flex-wrap: wrap;
+        gap: 2rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .fst_line {
+        width: 100% !important;
+        margin: 0 !important;
+    }
+    .ftr_aft {
+        font-size: .693em;
+    }
+}
+li{
+    cursor: pointer;
+}
+.form-control:focus{
+    background-color: transparent !important;
+}

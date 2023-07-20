@@ -1,0 +1,95 @@
+.Dates_body {
+    background: #000;
+    /* opacity: 0.5; */
+    
+
+}
+
+.dates_head {
+    z-index: 99999 !important;
+
+    /* text-transform: uppercase; */
+    color: #ffff;
+    opacity: 1 !important;
+}
+
+
+.dates-back {
+    height: 422px;
+    
+    background: rgb(23, 19, 32);
+    border-radius: 25px;    
+/* transform: scale(); */
+    border: none !important;
+
+}
+
+
+.back_img {
+    background-image: url(../../assets/Shapes.svg) !important;
+    background-position: center;
+    background-size: 50% 70%;
+    background-repeat: no-repeat;
+    /* height: 425px; */
+    
+}
+
+
+.word1 {
+    font-size: 20px;
+    font-weight: 600;
+    /* color: #a229c6; */
+    color: #680B51;
+}
+
+.word2 {
+    font-size: 89px;
+    font-weight: 700;
+    /* color: #a229c6; */
+    color: #680B51;
+
+}
+
+.word3 {
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    color: #fff;
+    
+}
+
+.scrol {
+    margin-left: -50px !important;
+    transform: scale(1.4);
+    margin-top: 60px !important;
+}
+
+.bar {
+    position: absolute;
+    margin-top: 60px !important;
+    color: #a229c6;
+    font-size: 18px;
+}
+
+@media only screen and (max-width: 600px){
+    .Dates_body {
+        display: none;
+    }
+}
+@media only screen and (max-width: 1000px){
+    .dates-back {
+        width: 100%!important ;
+    } 
+    .smallScreen {
+        
+        margin-left: 48px;
+    }
+    .dash_tab {
+        display: none;
+    }
+}
+@media only screen and (max-width: 1200px){
+    .sm-dash {
+        display: none;
+    }
+}

@@ -1,0 +1,140 @@
+.scaling_bg {
+    background: #000;
+}
+
+
+
+
+.nav-tabs {
+    /* border-bottom: 1px solid #dee2e6; */
+    border: 1px solid #ccc;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    border-radius: 50px;
+    margin-top: 50px;
+    padding: 0.4rem;
+    background-color: #212026;
+    border: none;
+ 
+}
+
+.nav-link.active  {
+    border-radius: 25px;
+    border: none;
+    color: #000 !important;
+}
+
+
+.nav-tabs .nav-link  {
+    color: #fff ;
+    font-weight: bold;
+    border: none !important;
+}
+
+ .nav-tabs .nav-link:hover {
+    border: none;
+}
+
+.head_tab {
+    text-align: left;
+}
+
+.live_btn {
+    border: 1px solid #a229c6;
+    color: #9558a7;
+    padding: 0.1rem 0.5rem;
+    background: transparent;
+    text-decoration: none;
+    border-radius: 50px;
+    font-size: 19px;
+    text-transform: uppercase;
+}
+
+.tab1_pera {
+    text-align: left;
+}
+
+
+.tab-btn-vrc{
+    color: #fff;
+    text-align: center;
+    text-transform: capitalize;
+    cursor: pointer;
+    /* background-image: linear-gradient(#8a46ff,#6e38cc); */
+    background-image: linear-gradient(to right,#680B51,#6e38cc);
+    border-radius: 3rem;
+    padding: 10px 14px;
+    font-size: .8rem;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all .2s;
+    outline: none;
+    border: none;
+}
+
+
+.tab-btn-vrc:hover {
+    background-image: linear-gradient(#ffffff,#ffffff);
+    color: #000 !important;
+    text-decoration: none;
+}
+
+
+.tab2-btn-vrc{
+    color: #fff;
+    text-align: center;
+    text-transform: capitalize;
+    cursor: pointer;
+    background: #0a090d;
+ 
+    border-radius: 3rem;
+    padding: 10px 14px;
+    font-size: .8rem;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all .2s;
+    outline: none;
+    border: none;
+}
+
+
+.tab2-btn-vrc:hover {
+    background:linear-gradient(#8a46ff,#6e38cc);
+    color: #fff !important;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 375px) {
+    .head-scaling {
+        font-size: 28px;
+        /* margin-top: 190px !important; */
+    }
+    .planet{
+        height: auto;
+    }
+    .nav-tabs {
+        font-size: 8px !important;
+        display: flex;
+        padding: 0 !important;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .head-scaling {
+        font-size: 28px;
+        margin-top: 50px;
+    }
+    .nav-tabs {
+        font-size: 10px;
+        display: flex;
+        padding: 0;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    .head-scaling {
+        font-size: 45px;
+        
+    }
+}

@@ -1,0 +1,36 @@
+.bg-emission {
+    background: #08060c;
+}
+.emission_pera {
+    color: #87868c; 
+    margin: 0 264px
+    
+}
+.text_para{
+    color: #87868c; 
+    font-size: 18px;
+}
+
+.earth {
+    width: 1200px;
+}
+
+
+
+@media only screen and (max-width: 600px){
+    .emission_pera {
+        margin: 0 auto;
+    }
+    
+    .earth {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 1200px){
+    .emission_pera {
+        margin: 0 auto;
+    }
+    .earth {
+        width: 100%;
+    }
+}

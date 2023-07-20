@@ -1,0 +1,117 @@
+.news_card {
+  min-height: 20em !important;
+  background-image: linear-gradient(#141217, #0e0c12);
+  background-color: #0a090d;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  color: #fff;
+ 
+}
+
+.news_head {
+  text-transform: uppercase;
+}
+
+.pera_cas {
+  display: flex;
+  text-align: start;
+}
+
+
+.scnd_span {
+  color: #7b3fe4;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.card_spans {
+    font-size: .893em;
+}
+
+@media screen and (max-width: 600px) {
+    .card_spans {
+        font-size: .693em;
+    }
+    .news_card {
+      width: 300px;
+      display: flex;
+      justify-content: center;
+      margin: 0 auto;
+      text-align: center;
+      align-items: center;
+    }
+    .slick-prev {
+   
+      display: block;
+      position: absolute;
+      top: 350px;
+      left: 40%;
+  }
+    .slick-next {
+   
+      display: block;
+      position: absolute;
+      top: 350px;
+      right: 40%;
+      background: transparent !important;
+  }
+}
+
+.custom-next-arrow {
+  position: absolute;
+  top: -48px;
+  right: 10px;
+  margin-bottom: 2rem;
+}
+
+.custom-prev-arrow {
+  margin-bottom: 2rem;
+  position: relative;
+  top: -48px;
+  right: -531px;
+}
+
+.crs_ico {
+  font-size: 1.5rem;
+}
+
+@media screen and (max-width: 1400px) {
+  .custom-prev-arrow {
+    margin-bottom: 2rem;
+    position: relative;
+    right: -455px;
+  } 
+}
+
+@media screen and (max-width: 1200px) {
+  .custom-prev-arrow {
+    margin-bottom: 2rem;
+    position: relative;
+    right: -364px;
+  } 
+}
+
+@media screen and (max-width: 992px) {
+  .custom-prev-arrow {
+    margin-bottom: 2rem;
+    position: relative;
+    right: -250px;
+  } 
+}
+
+@media screen and (max-width: 767px) {
+  
+  .custom-next-arrow {
+    position: relative;
+    bottom: 0px;
+    right: -40px;
+    margin-bottom: 2rem;
+    top: 20px;
+}
+  
+  .custom-prev-arrow {
+    margin-bottom: 2rem;
+    position: relative;
+    right: 51px;
+    top: 412px;
+}
+}

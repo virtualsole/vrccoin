@@ -1,0 +1,42 @@
+.App {
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* background-image: url(./assets/BG.jpg); */
+  background-repeat: no-repeat;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .respon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+
+
+@media only screen and (max-width: 1200px) {
+  .respon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+.planet{
+  width: 100%;
+  height: 500px;
+  background-color: black !important;
+}
+.virtual_text{
+  color: white;
+  font-size: 25px;
+}

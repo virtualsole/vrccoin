@@ -1,0 +1,52 @@
+@media only screen and (min-width: 600px) {
+    .Dates_bodys {
+        display: none;
+    }
+}
+
+
+.Dates_bodys {
+    background: #000;
+    height: 160vh;
+}
+.scrols {
+    position: absolute;
+    left: 2rem;
+    transform: scale(1.4);
+    margin-top: 80px !important;
+}
+.bars {
+    display: flex;
+    flex-direction: column;
+    rotate: 90deg;
+    color: #a229c6;
+    position: absolute;
+   left: -1.1rem;
+    margin-top: 220px;
+}
+.barst {
+    display: flex;
+    flex-direction: column;
+    rotate: 90deg;
+    color: #a229c6;
+    position: absolute;
+   left: -4.2rem;
+    margin-top: 270px;
+}
+
+.border2 {
+    border: 1px solid #ccc;
+    border: none;
+    border-radius: 15px;
+    width: 50%;
+    position: absolute;
+    left: 35%;
+    height: 32%;
+    background: rgb(23, 19, 32);
+}
+
+.dates_heads {
+    font-size: 30px;
+    margin-top: 20px;
+    color: #fff;
+}
