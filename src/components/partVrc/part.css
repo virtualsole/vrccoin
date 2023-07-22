@@ -1,0 +1,47 @@
+.part-card {
+  background: rgba(27, 27, 27, 0.2) !important;
+  border-radius: 5px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.4) !important;
+  /* backdrop-filter: blur(3.1px);
+  -webkit-backdrop-filter: blur(3.1px); */
+  border: 1px solid rgba(105, 67, 255, 0.3) !important ;
+  cursor: pointer;
+  color: #fff !important;
+}
+.part-card::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 0;
+  box-sizing: border-box;
+  height: 0;
+  border-top: 3px solid transparent;
+  border-right: 3px solid transparent;
+  transition: all 0.8s ease;
+}
+.text-count{
+  font-size: 30px !important;
+  font-weight: 900 !important;
+  width: 60px !important;
+}
+
+.part-card::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  box-sizing: border-box;
+  height: 0;
+  border-bottom: 3px solid transparent;
+  border-left: 3px solid transparent;
+  transition: all 0.8s ease;
+}
+
+.part-card:hover::after,
+.part-card:hover::before {
+  border-color: #5cfff3;
+  width: 100%;
+  height: 100%;
+}

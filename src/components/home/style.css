@@ -1,98 +1,165 @@
 nav {
-    background: transparent;
+  background: transparent;
 }
 
 .app_logo {
-    width: 300px;
+  width: 300px;
 }
+.btn-btn {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  box-shadow: -4px 4px #245ea994;
+  text-align: center;
+  text-transform: capitalize;
+  cursor: pointer;
+  border: 1px solid black;
+  background-color: #245ea9;
+  /* background-image: linear-gradient(to right, #680b51, #6e38cc); */
+  border-radius: 5px;
+  padding: 10px 14px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  text-decoration: none;
 
+  transition: all 0.2s;
+  /* position: absolute; */
+  right: 40px;
+}
+.btn-jion {
+  color: #fff;
+  box-shadow: -4px 4px #245ea97c;
+  text-align: center;
+  text-transform: capitalize;
+  cursor: pointer;
+  border: 1px solid black;
+  background-color: #245ea9;
+  /* background-image: linear-gradient(to right, #680b51, #6e38cc); */
+  border-radius: 5px;
+  padding: 10px 14px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  text-decoration: none;
+
+  transition: all 0.2s;
+}
 .btn-vrc {
-    display: flex;
-    justify-content: center;
-    margin: 0 auto;
-    align-items: center;
-    text-align: center;
-    color: #fff;
-    text-align: center;
-    text-transform: capitalize;
-    cursor: pointer;
-    background-image: linear-gradient(to right,#680B51,#6e38cc);     
-    border-radius: 3rem;
-    padding: 10px 14px;
-    font-size: .8rem;
-    font-weight: 500;
-    text-decoration: none;
-    transition: all .2s;
-    position: absolute;
-    right: 40px; 
-    outline: none;
-    border: none;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  text-align: center;
+  text-transform: capitalize;
+  cursor: pointer;
+  background-image: linear-gradient(to right, #680b51, #6e38cc);
+  border-radius: 5px;
+  padding: 10px 14px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.2s;
+  /* position: absolute; */
+  right: 40px;
+  outline: none;
+  border: none;
 }
-.btn-vrc:hover {
-background-image: linear-gradient(#ffffff,#ffffff);
-color: #000 !important;
-text-decoration: none;
+.btn-btn:hover,
+.btn-jion:hover {
+ border: 1px solid #245ea9;
+ background: transparent !important;
+  color: #245ea9 !important;
+  text-decoration: none;
+  box-shadow: none !important;
 }
-.anounce{
-    grid-column-gap: 8px;
-    grid-row-gap: 8px;
-    -webkit-backdrop-filter: blur(8px);
-    backdrop-filter: blur(8px);
-    background-color: rgba(255,255,255,.08);
-    border: 1px solid rgba(255,255,255,.12);
-    border-radius: 12px;
-    padding: 8px;
-    transition-property: background-color;
-    transition-duration: .2s;
-    display: inline-block;
-    color: white;
+@media(max-width:600px){
+  .btn-btn{
+    box-shadow: none !important;
+    padding: 5px !important;
+  }
 }
-.anounce:hover{
-    opacity: 0.65;
+.anounce {
+  grid-column-gap: 8px;
+  grid-row-gap: 8px;
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+  background-color: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 12px;
+  padding: 8px;
+  transition-property: background-color;
+  transition-duration: 0.2s;
+  display: inline-block;
+  color: white;
 }
-.vrc_icon{
-    /* background-color: #6e38cc; */
-    background-color: #680B51;
-    /* padding: 10px; */
+.anounce:hover {
+  opacity: 0.65;
+}
+.vrc_icon {
+  /* background-color: #6e38cc; */
+  background-color: #680b51;
+  /* padding: 10px; */
+  font-size: 25px;
+  margin-left: 10px;
+  border-radius: 50%;
+}
+.icons {
+  height: 29px;
+}
+h1 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 3.75rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+.header_p {
+  color: #adabb2;
+  font-size: 1.25rem;
+}
+.screen_height {
+  height: 400px;
+  width: 100%;
+}
+.bg_clr {
+  background-color: black;
+}
+@media screen and (max-width: 600px) {
+  .app_logo {
+    width: 200px;
+  }
+  .main_text {
     font-size: 25px;
-    margin-left: 10px;
-    border-radius: 50%;
+  }
+  .planet {
+    height: auto;
+  }
 }
-.icons{
-    height: 29px;
+.main_text {
+  font-size: 50px;
 }
-h1{
-    margin-top: 0;
-    margin-bottom: 0;
-    font-size: 3.75rem;
-    font-weight: 500;
-    line-height: 1.2;
+.planet_height {
+  height: 400px;
 }
-.header_p{
-    color: #adabb2;
-    font-size: 1.25rem;
-}
-.screen_height{
-    height: 400px;
-    width: 100%;
-}
-.bg_clr{
-    background-color: black;
-}
-@media screen and (max-width:600px) {
-    .app_logo {
-        width: 200px;
-    }
-    .main_text{
-        font-size: 25px;
-    }
-    .planet{
-        height: auto;
-    }
-}
-.main_text{
-    font-size: 50px;
-}
-.planet_height{
-    height: 400px;
+.gradient-text {
+  /* Fallback: Set a background color. */
+  background-color: red;
+
+  /* Create the gradient. */
+  background-image: linear-gradient(45deg, #0197cf, #690f5c);
+
+  /* Set the background size and repeat properties. */
+  background-size: 100%;
+  background-repeat: repeat;
+
+  /* Use the text as a mask for the background. */
+  /* This will show the gradient as a text color rather than element bg. */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
 }

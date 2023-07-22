@@ -85,6 +85,12 @@
 
 }
 
+@media(max-width:600px){
+    .navbar-nav{
+        display: flex !important;
+        justify-content: space-between !important;
+    }
+}
 @media only screen and (max-width: 1200px) {
     
 .carousel-control-next-icon,
